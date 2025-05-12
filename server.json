@@ -1,0 +1,7 @@
+{
+"products":[
+        {"id":"1","name":"Mouse","price":150.25},
+        {"id":"2","name":"teclado","price":90},
+        {"id":"3","name":"monitor","price":500}
+]
+}
