@@ -1,7 +1,39 @@
 {
-"products":[
-        {"id":"1","name":"Mouse","price":150.25},
-        {"id":"2","name":"teclado","price":90},
-        {"id":"3","name":"monitor","price":500}
-]
+  "products": [
+    {
+      "id": "1",
+      "name": "Mouse",
+      "price": 150.25
+    },
+    {
+      "id": "2",
+      "name": "teclado",
+      "price": 90
+    },
+    {
+      "id": "3",
+      "name": "monitor",
+      "price": 500
+    },
+    {
+      "id": "1747315139749",
+      "name": "Pc Gamer",
+      "price": "150"
+    },
+    {
+      "id": "1747391971557",
+      "name": "",
+      "price": ""
+    },
+    {
+      "id": "1747401578347",
+      "name": "xBox one",
+      "price": "800"
+    },
+    {
+      "id": "11001011011011001010000000110010100111000",
+      "name": "xbox s s ",
+      "price": "1800"
+    }
+  ]
 }

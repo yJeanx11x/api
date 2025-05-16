@@ -14,14 +14,34 @@ async function fetchProduct() {
     const data= await resposta.json()
     console.log(data)
 }
-fetchProduct()
 
 // Passando Parâmetros na requisição
 
 async function fetchProductById(id) {
     const response=await fetch(`http://localhost:3000/products/${id}`)
     const datas=await response.json()
-console.log(datas)
+    console.log(datas)
 }
+// fetchProduct()
+// fetchProductById(2)
 
-fetchProductById(2) 
+const productsName=document.querySelector('#name')
+const productsPrice=document.querySelector('#price')
+const form=document.getElementsByTagName('form')
+
+addEventListener('submit',async (e)=>{
+e.preventDefault()
+fetch('http://localhost:3000/products',{
+    method:"POST",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+        id:new Date().getTime().toString(),
+        name:productsName.value,
+        price:productsPrice.value,
+    })    
+})
+
+})
+// await fetchProduct()
