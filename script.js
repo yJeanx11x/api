@@ -24,7 +24,7 @@ async function fetchProductById(id) {
 }
 // fetchProduct()
 // fetchProductById(2)
-
+//testando commit
 const productsName=document.querySelector('#name')
 const productsPrice=document.querySelector('#price')
 const form=document.getElementsByTagName('form')
